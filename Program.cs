@@ -19,7 +19,7 @@ var mqttClient = factory.CreateMqttClient();
 // Use TCP connection.
 var options = new MqttClientOptionsBuilder()
     .WithTcpServer("localhost", 1883)
-    .WithCredentials("frederik", "DMpkhAELQStSGtXS")
+    .WithCredentials("username", "password")
     .Build();
 
 Console.WriteLine("### CONNECTING ###");

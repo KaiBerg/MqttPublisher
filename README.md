@@ -1,6 +1,5 @@
 # MqttPublisher
 ## Installation
-```sh
+```bash
 dotnet run
 ```
-
